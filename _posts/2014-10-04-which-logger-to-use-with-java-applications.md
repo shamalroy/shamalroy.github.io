@@ -24,9 +24,11 @@ How Logger frameworks work with the Application
 ## Which Facade to choose?
 
 Most popular Java Logging Facades are SLF4J and Apache Commons Logging. Apache Commons Logging uses a runtime discovery algorithm that looks for other logging frameworks in different common places in the classpath and chose the right one or you can configure it which one you want to use. This approach uses dynamic binding/class loading that poses to numerous problems, including unexpected behavior, complex to debug class loading problems.
-You can check out Ceki’s Article Think again before adopting the commons-logging API. Ceki is the inventor of SLJ4J, LOG4J, and Logback.
+You can check out Ceki’s Article [Think again before adopting the commons-logging API][cekis-article]. Ceki is the inventor of SLJ4J, LOG4J, and Logback.
 
 SLF4J uses static binding for avoiding the issues introduced by JCL. It also has a native implementation layer for other logging frameworks. It also provides a JCL to SLF4J bridge for the applications/ Frameworks which still uses JCL for Logging.
 
 ![]({{site.baseurl}}/images/2014-10-04-slf4jvsacl.png "SLF4J vs Apache Commons Logging")
 SLF4J vs Apache Commons Logging
+
+[cekis-article]: http://articles.qos.ch/thinkAgain.html
