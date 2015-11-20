@@ -7,12 +7,14 @@ date: 2015-11-13 00:00:00
 If you need to disable the AEM workflow launchers and then enable them again after your whatever work is complete, here are the steps.
 
 ## Disable
-- Open the AEM system console component page, 
+- Open the AEM system console component page,
+
 ```
 http://localhost:4502/system/console/components
 ```
 
-- Then look for the items bellow and click the stop/disable button on the right
+- Then look for the items bellow and click the stop/disable button on the right.
+
 ```
 com.adobe.granite.workflow.core.launcher.WorkflowLauncherImpl
 com.adobe.granite.workflow.core.launcher.WorkflowLauncherListener
@@ -20,8 +22,9 @@ com.adobe.granite.workflow.core.launcher.WorkflowLauncherListener
 
 
 ## Enable
-- Open the bundles page. 
-``` text
+- Open the bundles page.
+
+```
 http://localhost:4502/system/console/bundles
 ```
 
