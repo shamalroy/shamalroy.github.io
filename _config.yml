@@ -1,5 +1,5 @@
 # Site settings
-title: slim
+title: me.toString();
 baseurl: ""
 url: "http://tostring.me"
 
