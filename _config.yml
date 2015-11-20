@@ -1,6 +1,6 @@
 # Site settings
 title: slim
-baseurl: "/"
+baseurl: ""
 url: "http://tostring.me"
 
 # Build settings
