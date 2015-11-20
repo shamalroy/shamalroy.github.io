@@ -12,7 +12,7 @@ This installation will run probably for all i386 systems.
 # ssh username[at]ip_address
 ```
 
-2. Then install the following RPMs using the commands.
+2. Then install the following RPMs.
    
 ```
 # rpm -Uvh --nodeps ftp://ftp.univie.ac.at/systems/linux/dag/redhat/el4/en/i386/RPMS.dag/ffmpeg-0.4.9-0.9.20070530.el4.rf.i386.rpm
